@@ -24,7 +24,7 @@
     [super setUp];
     answer = [[Answer alloc] init];
     answer.text = @"The answer is 42";
-    answer.person = [[Person alloc] initWithName:@"Graham Lee" avatarLocation:@"http://example.com/avatar.png"];
+    answer.person = [[Person alloc] initWithName:@"Square" avatarLocation:@"http://example.com/avatar.png"];
     answer.score = 42;
     
     otherAnswer = [[Answer alloc] init];

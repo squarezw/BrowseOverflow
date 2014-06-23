@@ -42,7 +42,7 @@
     highScore.score = 4;
     [question addAnswer:highScore];
     
-    asker = [[Person alloc] initWithName:@"Graham Lee" avatarLocation:@"http://example.com/avatar.png"];
+    asker = [[Person alloc] initWithName:@"Square" avatarLocation:@"http://example.com/avatar.png"];
     question.asker = asker;
 }
 

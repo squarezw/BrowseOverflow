@@ -20,10 +20,21 @@
 @property (copy) NSString *title;
 @property (copy) NSString *body;
 @property NSInteger score;
+/**
+ *  An ordered collection of answers
+ */
 @property (readonly) NSArray *answers;
+/**
+ *  A numberic identifier, relating this question object to its source on the website.
+ */
 @property NSInteger questionID;
+/*
+ * The person who asked this question on the website.
+ */
 @property (strong) Person *asker;
-
+/**
+ *  Add another answer to this question's collection of answers.
+ */
 - (void)addAnswer:(Answer*)answer;
 
 @end
